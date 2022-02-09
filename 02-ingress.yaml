@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: http://35.238.39.80/
+  - host: http://104.154.193.250:8080
     http:
       paths: 
       - backend:
