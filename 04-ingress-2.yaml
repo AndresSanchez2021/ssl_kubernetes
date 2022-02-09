@@ -8,12 +8,13 @@ metadata:
 spec:
     tls:
     - hosts:
-        - unalmeet.edu.com
-        secretName: unal-tls
+      - unalmeet.edu.com
+      secretName: unal-tls
     rules:
-    - host: unalmeet.edu.com 
+      - host: unalmeet.edu.com 
         http: 
           paths: 
-          - backend:
-              serviceHost: http://localhost/CC/
-              serviceName: 
+          - path: /
+            backend:
+              serviceName: hello-v1
+              serviceNPort: 80
