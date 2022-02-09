@@ -17,4 +17,4 @@ spec:
           - path: /
             backend:
               serviceName: hello-v1
-              serviceNPort: 80
+              servicePort: 80
