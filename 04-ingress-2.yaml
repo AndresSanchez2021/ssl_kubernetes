@@ -8,13 +8,13 @@ metadata:
 spec:
     tls:
     - hosts:
-        -  unalmeet.edu.com # Nuestro nombre de dominio configurado en el DNS
-        secretName: unal-tls # (debe ser lower case) este nombre lo tomara automáticamente nuestro Issuer (Emisor) para generar el SECRET.
+        -  unalmeet.edu.com
+        secretName: unal-tls
     rules:
-    - host: unalmeet.edu.com #Nuestro nombre de dominio configurado en el DNS
+    - host: unalmeet.edu.com 
         http: &http_rules
         paths:
         - path: 
             backend:
             serviceHost: http://localhost/CC/
-            serviceName: #Poner el nombre del servicio
+            serviceName: 
