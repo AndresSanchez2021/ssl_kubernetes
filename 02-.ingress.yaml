@@ -7,7 +7,7 @@ metadata:
 spec:
     rules:
     - host: unalmeet.edu.com 
-        http: &http_rules
+        http: 
         paths:
         - path: 
             backend:
