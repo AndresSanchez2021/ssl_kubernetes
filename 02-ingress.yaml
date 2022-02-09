@@ -7,9 +7,8 @@ metadata:
 spec:
     rules:
     - host: unalmeet.edu.com 
-        http: 
-        paths:
-        - path: 
-            backend:
+        http:
+          path: 
+          - backend:
             serviceHost: http://localhost/CC/
             serviceName: 
