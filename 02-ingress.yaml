@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: unalmeet.edu.com
+  - host: http://35.238.39.80/
     http:
       paths: 
       - backend:
