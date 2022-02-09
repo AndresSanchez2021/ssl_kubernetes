@@ -10,7 +10,7 @@ spec:
     tls:
     - hosts:
       - unalmeet.edu.com
-      secretName: unal1-tls
+      secretName: unal2-tls
     rules:
       - host: unalmeet.edu.com
         http: 
