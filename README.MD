@@ -8,3 +8,6 @@ kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/relea
 
 kubectl apply -f cert-manager.yaml
 kubectl apply -f  ingress-2.yaml
+
+
+
