@@ -10,4 +10,3 @@ kubectl apply -f 03-cert-manager.yaml
 kubectl apply -f 04-ingress-2.yaml
 
 
-

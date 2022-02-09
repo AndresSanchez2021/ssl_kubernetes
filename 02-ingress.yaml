@@ -3,10 +3,10 @@ kind: Ingress
 metadata:
   name: ingress
   annotations:
-    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: unalmeet.edu.com 
+  - host: unalmeet.edu.com
     http:
       paths: 
       - backend:
