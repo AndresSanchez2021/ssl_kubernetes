@@ -1,0 +1,18 @@
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+    name: letsencrypt-prod
+spec:
+    acme:
+        # El url del servidor ACME
+        server: https://acme-v02.api.letsencrypt.org/directory
+        # Email usado para el registro ACME
+        email: afsc1999@gmail.com # un email valido
+        # Nombre del secret usado para guardar la key privada de la cuenta ACME de letsencript
+        privateKeySecretRef:
+            name: letsencrypt-prod
+        # Activar el HTTP-01 challenge provider
+        solvers:
+        - http01:
+            ingress:
+                class:  nginx
