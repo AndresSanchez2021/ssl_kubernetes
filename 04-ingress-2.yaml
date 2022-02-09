@@ -12,9 +12,8 @@ spec:
         secretName: unal-tls
     rules:
     - host: unalmeet.edu.com 
-        http: &http_rules
-        paths:
-        - path: 
-            backend:
-            serviceHost: http://localhost/CC/
-            serviceName: 
+        http: 
+          paths: 
+          - backend:
+              serviceHost: http://localhost/CC/
+              serviceName: 
