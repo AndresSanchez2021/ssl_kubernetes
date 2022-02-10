@@ -6,9 +6,9 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: http://104.154.193.250:8080
+  - host: unalmeet.page
     http:
       paths: 
       - backend:
-          serviceName: hello-v1
+          serviceName: unalmeet-wa-service
           servicePort: 80

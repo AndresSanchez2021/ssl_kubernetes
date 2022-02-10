@@ -9,13 +9,13 @@ metadata:
 spec:
     tls:
     - hosts:
-      - http://104.154.193.250:8080
-      secretName: unal3-tls
+      - unalmeet.page
+      secretName: unal-tls
     rules:
-      - host: http://104.154.193.250:8080
+      - host: unalmeet.page
         http: 
           paths: 
           - path: /
             backend:
-              serviceName: hello-v1
+              serviceName: unalmeet-wa-service
               servicePort: 80
