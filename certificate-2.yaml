@@ -5,8 +5,8 @@ metadata:
   namespace: default
 spec:
   dnsNames:
-    - unalmeet.page
-  secretName: unal2-tls
+    - unalmeet.com
+  secretName: unal3-tls
   issuerRef:
     name: letsencrypt-cluster-issuer
     kind: ClusterIssuer

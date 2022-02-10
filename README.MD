@@ -17,7 +17,13 @@ kubectl apply -f 04-ingress-2.yaml
 
 
 
-------------
+---------------------
+
+
+
+
+
+
 
 crear el cluster 
 crear carpeta cert-manager

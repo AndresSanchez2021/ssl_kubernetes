@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - unalmeet.page
-    secretName: unal2-tls
+    - unalmeet.com
+    secretName: unal3-tls
   rules:
-  - host: unalmeet.page
+  - host: unalmeet.com
     http:
       paths: 
       - path: /
