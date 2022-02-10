@@ -16,5 +16,5 @@ spec:
       - path: /
         pathType: Prefix
         backend:
-          serviceName: hello-v1 #unalmeet-wa-service
+          serviceName: unalmeet-wa-service
           servicePort: 80
