@@ -33,10 +33,10 @@ kubectl apply -f certificate.yaml
 // debemos comprobar los certificados 
         kubectl describe certificate -n cert-manager-test
 
-kubectl crate ns ingress-nginx
+kubectl create ns ingress-nginx
 kubectl -n ingress-nginx apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.41.2/deploy/static/provider/cloud/deploy.yaml
 
-//debemos comprobar los svc de nginx-ingress y lo puestos
+//debemos comprobar los svc de nginx-ingress y lo puertos
 
 kubectl -n ingress-nginx --address 0.0.0.0 port-forward svc/ingress-nginx-controller 80
 kubectl -n ingress-nginx --address 0.0.0.0 port-forward svc/ingress-nginx-controller 443
