@@ -1,12 +1,12 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: hello-v1
+  name: production
   namespace: default
 spec:
   dnsNames:
     - unalmeet.com
-  secretName: unal3-tls
+  secretName: unal5-tls
   issuerRef:
     name: letsencrypt-cluster-issuer
     kind: ClusterIssuer
