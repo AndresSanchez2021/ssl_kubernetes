@@ -6,7 +6,7 @@ metadata:
 spec:
   dnsNames:
     - unalmeet.page
-  secretName: unal1-tls
+  secretName: unal2-tls
   issuerRef:
     name: letsencrypt-cluster-issuer
     kind: ClusterIssuer

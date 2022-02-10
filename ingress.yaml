@@ -8,7 +8,7 @@ spec:
   tls:
   - hosts:
     - unalmeet.page
-    secretName: unal1-tls
+    secretName: unal2-tls
   rules:
   - host: unalmeet.page
     http:
